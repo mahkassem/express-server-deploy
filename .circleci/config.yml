@@ -5,7 +5,6 @@ orbs:
   eb: circleci/aws-elastic-beanstalk@2.0.1
 jobs:
   build:
-    name: Build/deploy server and website
     docker:
       - image: cimg/base:stable
     steps:
