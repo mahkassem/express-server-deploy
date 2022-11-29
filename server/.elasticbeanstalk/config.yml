@@ -3,7 +3,7 @@ branch-defaults:
     environment: Udacity-env
     group_suffix: null
 deploy:
-  artifact: .\archive.zip
+  artifact: archive.zip
 global:
   application_name: Udacity
   branch: null
